@@ -1,0 +1,34 @@
+[
+  {
+    "requirement": "The app is built using Next.js, React, TypeScript, and Styled Components.",
+    "criteria": "<p>Ensure the app utilizes the recommended tech stack effectively, showcasing the candidate's proficiency in Next.js for SSR or SSG, React for building UI components, TypeScript for type-safe code, and Styled Components for styling.</p>"
+  },
+  {
+    "requirement": "Client-side form validation is implemented for adding a book.",
+    "criteria": "<p>Check that the form prevents submission when the title or author fields are empty or contain only whitespace. Ensure the 'Add Book' button is appropriately disabled under these conditions.</p>"
+  },
+  {
+    "requirement": "Books are added to and removed from the list correctly.",
+    "criteria": "<p>Verify that books can be added to the list and displayed correctly with titles and authors. Also, ensure books can be removed from the list, updating the UI accordingly without page reloads.</p>"
+  },
+  {
+    "requirement": "Error handling is implemented for adding and removing books.",
+    "criteria": "<p>Ensure that the app has mechanisms to display informative messages or handle hypothetical errors in adding or removing books, even though this version does not integrate with an external API.</p>"
+  },
+  {
+    "requirement": "At least one component is unit-tested using Jest and React Testing Library.",
+    "criteria": "<p>Review the unit tests to ensure they cover both happy paths and edge cases. Tests should validate component behavior under various states and props.</p>"
+  },
+  {
+    "requirement": "The codebase is well-structured and follows best practices.",
+    "criteria": "<p>Evaluate the organization of the code into reusable modules, components, and utilities. The code should be easy to read, maintain, and extend. Assess adherence to best practices in React, TypeScript, and styled-components usage.</p>"
+  },
+  {
+    "requirement": "The app's performance is optimized for the best user experience.",
+    "criteria": "<p>Check for efficient rendering of components, avoiding unnecessary re-renders. Evaluate the use of Next.js features like dynamic imports for splitting code and reducing the initial load time.</p>"
+  },
+  {
+    "requirement": "The candidate followed a professional developer workflow.",
+    "criteria": "<p>Ensure the submission includes a clear, structured commit history on a separate branch with a descriptive pull request that outlines the changes made and the reasoning behind them.</p>"
+  }
+]

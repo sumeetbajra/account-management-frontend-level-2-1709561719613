@@ -1,0 +1,1 @@
+This challenge requires building a 'Personal Library App - Book Manager' using Next.js, React, TypeScript, and Styled Components with functionalities to add and remove books, including client-side validation, error handling, and unit testing.
